@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 2,
+    "editor.fontSize": 10,
+    "terminal.integrated.fontSize": 10,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1A3136",
+        "titleBar.activeBackground": "#25444B",
+        "titleBar.activeForeground": "#F8FBFB"
+    }
+}
