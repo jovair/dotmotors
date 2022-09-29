@@ -1,11 +1,17 @@
 import * as S from './styles'
 
 export type DataGridProps = {
-  label?: string
+  firstColumn: string
+  secondColumn: string
 }
-const DataGrid = ({label}:DataGridProps) => (
+const DataGrid = ({ firstColumn, secondColumn }: DataGridProps) => (
   <S.Wrapper>
-    <h1>{label}</h1>
+    <S.Content>
+      <S.GridLine as="a" href="#">
+        <S.ColumnOne className="column">{firstColumn}</S.ColumnOne>
+        <S.ColumnTwo className="column">{secondColumn}</S.ColumnTwo>
+      </S.GridLine>
+    </S.Content>
   </S.Wrapper>
 )
 

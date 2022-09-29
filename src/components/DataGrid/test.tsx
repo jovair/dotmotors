@@ -5,10 +5,12 @@ import DataGrid from '.'
 
 describe('<DataGrid />', () => {
   it('should render the heading', () => {
-    //const { container } =
-    renderWithTheme(<DataGrid label="DataGrid"/>)
-    expect(screen.getByRole('heading', { name: /DataGrid/i })).toBeInTheDocument()
+    renderWithTheme(
+      <DataGrid firstColumn="José Maria Rodrigues" secondColumn={'123'} />
+    )
+    expect(screen.getByRole('heading', { name: /José Maria/i }))
+      .toBeInTheDocument
 
-    //expect(container.firstChild).toMatchSnapshot()
+    expect(screen.getByRole('heading', { name: /123/i })).toBeInTheDocument
   })
 })
