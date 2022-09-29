@@ -14,7 +14,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  background: linear-gradient(180deg,#ff872d 0%,#fd7813 50%);
   color: #FAFAFA;
   border: 0;
   cursor: pointer;
@@ -28,7 +28,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
 }
 
 .c6:hover {
-  background: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+  background: linear-gradient(180deg,#FD7813 0%,#FF872D 50%);
 }
 
 .c6 svg {
@@ -52,7 +52,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  background: linear-gradient(180deg,#ff872d 0%,#fd7813 50%);
   color: #FAFAFA;
   border: 0;
   cursor: pointer;
@@ -63,7 +63,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
   height: 5rem;
   font-size: 1.6rem;
   padding: 0.8rem 4.8rem;
-  color: #003399;
+  color: #F231A5;
   background: none;
 }
 
@@ -80,7 +80,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
 }
 
 .c8:hover {
-  color: #026;
+  color: #e20e8d;
 }
 
 .c1 {
@@ -96,7 +96,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
   bottom: -0.8rem;
   content: '';
   width: 5rem;
-  border-bottom: 0.5rem solid #003399;
+  border-bottom: 0.5rem solid #F231A5;
 }
 
 .c4 {
@@ -116,7 +116,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
   padding: 0 1.6rem;
   height: 2.6rem;
   right: -1.5rem;
-  background-color: #E2306C;
+  background-color: #3CD3C1;
 }
 
 .c4::before {
@@ -138,8 +138,8 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
 }
 
 .c4::before {
-  border-left-color: #971541;
-  border-top-color: #971541;
+  border-left-color: #1f8a7d;
+  border-top-color: #1f8a7d;
 }
 
 .c7 {
@@ -164,7 +164,7 @@ exports[`<ProductInfo /> should render the title, description, value and buttons
 
 .c2 {
   font-size: 1.4rem;
-  color: #8D8D8D;
+  color: #6A6A6A;
   margin-bottom: 2.4rem;
 }
 

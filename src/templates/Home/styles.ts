@@ -47,7 +47,7 @@ export const SectionNews = styled(Sections)`
        margin-bottom: 0;
        padding-top: 14rem;
        padding-bottom: 10rem;
-       background-color: ${theme.colors.background_light};
+       background-color: ${theme.colors.backgroundLigth};
        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
        ${HeadingStyles.Wrapper} {
          color: ${theme.colors.black};

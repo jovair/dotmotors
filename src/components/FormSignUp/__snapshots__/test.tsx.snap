@@ -14,7 +14,7 @@ exports[`<FormSignUp /> Renders with placeholder 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  background: linear-gradient(180deg,#ff872d 0%,#fd7813 50%);
   color: #FAFAFA;
   border: 0;
   cursor: pointer;
@@ -29,7 +29,7 @@ exports[`<FormSignUp /> Renders with placeholder 1`] = `
 }
 
 .c8:hover {
-  background: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+  background: linear-gradient(180deg,#FD7813 0%,#FF872D 50%);
 }
 
 .c2 {
@@ -43,15 +43,15 @@ exports[`<FormSignUp /> Renders with placeholder 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #F2F2F2;
+  background: #EAEAEA;
   border-radius: 0.2rem;
   padding: 0 1.6rem;
   border: 0.2rem solid;
-  border-color: #F2F2F2;
+  border-color: #EAEAEA;
 }
 
 .c3:focus-within {
-  box-shadow: 0 0 0.5rem #003399;
+  box-shadow: 0 0 0.5rem #F231A5;
 }
 
 .c6 {
@@ -72,7 +72,7 @@ exports[`<FormSignUp /> Renders with placeholder 1`] = `
   display: -ms-flexbox;
   display: flex;
   width: 2.2rem;
-  color: #8D8D8D;
+  color: #6A6A6A;
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
@@ -103,17 +103,17 @@ exports[`<FormSignUp /> Renders with placeholder 1`] = `
 }
 
 .c9 a {
-  color: #E2306C;
+  color: #3CD3C1;
   -webkit-text-decoration: none;
   text-decoration: none;
-  border-bottom: 0.1rem solid #E2306C;
+  border-bottom: 0.1rem solid #3CD3C1;
   -webkit-transition: color,border,0.1s ease-in-out;
   transition: color,border,0.1s ease-in-out;
 }
 
 .c9 a:hover {
-  color: #c41b54;
-  border-bottom: 0.1rem solid #c41b54;
+  color: #29b3a3;
+  border-bottom: 0.1rem solid #29b3a3;
 }
 
 <div>

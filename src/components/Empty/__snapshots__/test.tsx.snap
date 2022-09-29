@@ -14,7 +14,7 @@ exports[`<Empty /> should render correctly a button link 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  background: linear-gradient(180deg,#ff872d 0%,#fd7813 50%);
   color: #FAFAFA;
   border: 0;
   cursor: pointer;
@@ -28,7 +28,7 @@ exports[`<Empty /> should render correctly a button link 1`] = `
 }
 
 .c4:hover {
-  background: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+  background: linear-gradient(180deg,#FD7813 0%,#FF872D 50%);
 }
 
 .c0 {
@@ -55,7 +55,7 @@ exports[`<Empty /> should render correctly a button link 1`] = `
 }
 
 .c2 {
-  color: #003399;
+  color: #F231A5;
   font-size: 2.8rem;
 }
 

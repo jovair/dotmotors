@@ -17,7 +17,7 @@ export const Body = styled.div`
 
 export const Footer = styled.div`
   ${({ theme }) => css`
-    background: ${tint(0.2, theme.colors.gray_light)};
+    background: ${tint(0.2, theme.colors.lightGray)};
     color: ${theme.colors.black};
     font-weight: ${theme.font.bold};
     padding: ${theme.spacings.small};
@@ -38,7 +38,7 @@ export const CardsList = styled.div`
 `
 
 const ItemStyles = (theme: DefaultTheme) => css`
-  background: ${theme.colors.gray_light};
+  background: ${theme.colors.lightGray};
   border-radius: 0.2rem;
   color: ${theme.colors.black};
   padding: ${theme.spacings.xxsmall};
