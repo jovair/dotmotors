@@ -35,11 +35,11 @@ export default {
     gray: '#6A6A6A',
     darkGray: '#393939',
 
-    dPrimary: '#FD7813',
-    dSecondary: '#26E55F',
-    dTerciary: '#FE3B08',
-    dQuarternary: '#FEBB08',
-    dQuinary: '#E2306C',
+    dotPrimary: '#FD7813',
+    dotSecondary: '#26E55F',
+    dotTerciary: '#FE3B08',
+    dotQuarternary: '#FEBB08',
+    dotQuinary: '#E2306C',
 
     lightHover: '#FF872D',
     darkHover: '#F16B05'

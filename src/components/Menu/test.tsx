@@ -9,9 +9,6 @@ describe('<Menu />', () => {
     expect(screen.getByLabelText(/open menu/i)).toBeInTheDocument()
     expect(screen.getByLabelText(/search/i)).toBeInTheDocument()
     expect(screen.getAllByLabelText(/shopping cart/i)).toHaveLength(2)
-    expect(
-      screen.getByLabelText(/won games/i).parentElement
-    ).toBeInTheDocument()
   })
 
   it('should render the open/close mobile menu', () => {

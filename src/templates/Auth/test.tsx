@@ -11,12 +11,6 @@ describe('<Auth />', () => {
       </Auth>
     )
 
-    // verifica se tem 2 logos
-    const logos = screen.getAllByLabelText(/won games/i)
-    expect(logos[0].parentElement).toHaveAttribute('color', 'white')
-    expect(logos[1].parentElement).toHaveAttribute('color', 'black')
-    expect(screen.getAllByRole('img', { name: /won games/i })).toHaveLength(2)
-
     // verifica se tem o heading do banner
     expect(
       screen.getByRole('heading', {
